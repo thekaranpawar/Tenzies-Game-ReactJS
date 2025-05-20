@@ -1,0 +1,38 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  font-family: 'Arial', sans-serif;
+  min-height: 100vh;
+  background-color: #f0f8ff;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 30px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.dice-container {
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.roll-button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #5035ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
