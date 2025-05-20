@@ -1,4 +1,4 @@
-main {
+main{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,26 +8,22 @@ main {
   min-height: 100vh;
   background-color: #f0f8ff;
 }
-
-h1 {
+h1{
   font-size: 2.5rem;
   margin-bottom: 10px;
 }
-
-p {
+p{
   margin-bottom: 30px;
   max-width: 400px;
   text-align: center;
 }
-
-.dice-container {
+.dice-container{
   display: grid;
   grid-template-columns: repeat(5, 60px);
   gap: 20px;
   margin-bottom: 30px;
 }
-
-.roll-button {
+.roll-button{
   padding: 10px 20px;
   font-size: 1.2rem;
   background-color: #5035ff;

@@ -1,4 +1,4 @@
-.die-face {
+.die-face{
   height: 60px;
   width: 60px;
   display: flex;
@@ -11,12 +11,10 @@
   user-select: none;
   transition: background-color 0.2s ease;
 }
-
-.die-face.held {
+.die-face.held{
   background-color: #59e391;
 }
-
-.die-img {
+.die-img{
   width: 40px;
   height: 40px;
 }
