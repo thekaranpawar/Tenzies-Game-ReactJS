@@ -1,8 +1,7 @@
-
 # 🎲 Tenzies Game – React
 
-A modern and interactive **Tenzies game** built with **React**.  
-The goal is to roll 10 dice until they all show the same number.  
+A modern and interactive **Tenzies game** built with **React**.
+The goal is to roll 10 dice until they all show the same number.
 You can "hold" dice to keep their value between rolls. A fun and visual game that demonstrates core React concepts, state management, and basic game logic.
 
 ---
@@ -72,19 +71,19 @@ Through building this project, the following skills and concepts were practiced:
 tenzies-game/
 ├── public/
 ├── src/
-│   └── images/
-│       ├── diceFace1.png
-│       ├── diceFace2.png
-│       ├── diceFace3.png
-│       ├── diceFace4.png
-│       ├── diceFace5.png
-│       └── diceFace6.png
-│   ├── App.css
-│   ├── App.js
-│   ├── Dice.css
-│   ├── Dice.js
-│   ├── index.css
-│   └── index.js
+│ └── images/
+│ ├── diceFace1.png
+│ ├── diceFace2.png
+│ ├── diceFace3.png
+│ ├── diceFace4.png
+│ ├── diceFace5.png
+│ └── diceFace6.png
+│ ├── App.css
+│ ├── App.js
+│ ├── Dice.css
+│ ├── Dice.js
+│ ├── index.css
+│ └── index.js
 ├── .gitignore
 ├── README.md
 ├── package-lock.json
