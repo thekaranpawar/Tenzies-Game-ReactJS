@@ -70,20 +70,21 @@ Through building this project, the following skills and concepts were practiced:
 ```
 tenzies-game/
 ├── public/
+│   └── index.html
 ├── src/
-│ └── images/
-│ ├── diceFace1.png
-│ ├── diceFace2.png
-│ ├── diceFace3.png
-│ ├── diceFace4.png
-│ ├── diceFace5.png
-│ └── diceFace6.png
-│ ├── App.css
-│ ├── App.js
-│ ├── Dice.css
-│ ├── Dice.js
-│ ├── index.css
-│ └── index.js
+│   └── images/
+│        └── diceFace1.png
+│        └── diceFace2.png
+│        └── diceFace3.png
+│        └── diceFace4.png
+│        └── diceFace5.png
+│        └── diceFace6.png
+│   ├── App.css
+│   ├── App.js
+│   ├── Dice.css
+│   ├── Dice.js
+│   ├── index.css
+│   └── index.js
 ├── .gitignore
 ├── README.md
 ├── package-lock.json
@@ -97,6 +98,7 @@ tenzies-game/
 ## 🙌 Acknowledgments
 
 Inspired by the classic Tenzies dice game.
+
 Built as a fun coding project to practice component-based development.
 
 ---
