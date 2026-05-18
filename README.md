@@ -17,7 +17,7 @@ You can "hold" dice to keep their value between rolls. A fun and visual game tha
 
 ## 🔗 Demo
 
-[Visit Live Site](https://tenzies-game-react-js.vercel.app/)
+[PLAY](https://tenzies-game-react-js.vercel.app/)
 
 ---
 
@@ -70,27 +70,29 @@ Through building this project, the following skills and concepts were practiced:
 ```
 tenzies-game/
 ├── public/
-│   └── index.html
+│ └── favicon.svg
 ├── src/
-│   └── images/
-│        └── diceFace1.png
-│        └── diceFace2.png
-│        └── diceFace3.png
-│        └── diceFace4.png
-│        └── diceFace5.png
-│        └── diceFace6.png
-│   ├── App.css
-│   ├── App.js
-│   ├── Dice.css
-│   ├── Dice.js
-│   ├── index.css
-│   └── index.js
+│ └── assets/
+|   └── diceFace1.png
+|   └── diceFace2.png
+|   └── diceFace3.png
+|   └── diceFace4.png
+|   └── diceFace5.png
+|   └── diceFace6.png
+│ └── components/
+|   └── Dice.css
+|   └── Dice.jsx
+│ ├── App.css
+│ ├── App.jsx
+│ ├── index.css
+│ ├── main.jsx
 ├── .gitignore
-├── README.md
+├── index.html
 ├── package-lock.json
 ├── package.json
 ├── screenshot-win.png
 ├── screenshot.png
+├── README.md
 
 ```
 ---
@@ -98,7 +100,6 @@ tenzies-game/
 ## 🙌 Acknowledgments
 
 Inspired by the classic Tenzies dice game.
-
 Built as a fun coding project to practice component-based development.
 
 ---
