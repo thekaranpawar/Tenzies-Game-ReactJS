@@ -1,12 +1,12 @@
 import React from 'react';
-import './Dice.css';
+import "./Dice.css";
 
-import dice1 from './images/diceFace1.png';
-import dice2 from './images/diceFace2.png';
-import dice3 from './images/diceFace3.png';
-import dice4 from './images/diceFace4.png';
-import dice5 from './images/diceFace5.png';
-import dice6 from './images/diceFace6.png';
+import dice1 from '../assets/diceFace1.png';
+import dice2 from '../assets/diceFace2.png';
+import dice3 from '../assets/diceFace3.png';
+import dice4 from '../assets/diceFace4.png';
+import dice5 from '../assets/diceFace5.png';
+import dice6 from '../assets/diceFace6.png';
 
 const diceImages = {
   1: dice1,

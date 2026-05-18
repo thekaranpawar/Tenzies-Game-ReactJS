@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import Dice from './Dice';
+import Dice from './components/Dice';
 import './App.css';
 import Confetti from 'react-confetti';
 
-export default function App() {
+function App() {
   const [dice, setDice] = useState(allNewDice());
   const [tenzies, setTenzies] = useState(false);
 
@@ -69,3 +69,4 @@ export default function App() {
     </main>
   );
 }
+export default App;
